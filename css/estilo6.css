@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'IconicFill';
+    src: url('iconic_fill.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-next::after {
+    content: '\2192';
+    font-family: 'IconicFill';
+    margin-left: 10px;
+}
+
+h1.icon-next {
+    color: blue;
+}
